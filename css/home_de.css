@@ -1,0 +1,150 @@
+/*@font-face {*/
+/*font-family: 'IntroHeadB-H1';*/
+/*src: url('/fonts/amita-regular-webfont.eot');*/
+/*src: url('/fonts/amita-regular-webfont.eot?#iefix') format('embedded-opentype'),*/
+/*url('/fonts/amita-regular-webfont.woff2') format('woff2'),*/
+/*url('/fonts/amita-regular-webfont.woff') format('woff'),*/
+/*url('/fonts/amita-regular-webfont.ttf') format('truetype');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+
+/*}*/
+/*@font-face {*/
+/*font-family: 'IntroHeadB-L';*/
+/*src: url('/fonts/amita-regular-webfont.eot');*/
+/*src: url('/fonts/amita-regular-webfont.eot?#iefix') format('embedded-opentype'),*/
+/*url('/fonts/amita-regular-webfont.woff2') format('woff2'),*/
+/*url('/fonts/amita-regular-webfont.woff') format('woff'),*/
+/*url('/fonts/amita-regular-webfont.ttf') format('truetype');*/
+/*font-weight: normal;*/
+/*font-style: normal;*/
+
+/*}*/
+@font-face {
+    font-family: 'IntroRast-Base';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'IntroHeadB-GBase';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'IntroHeadB-L';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/**************** new font style *********************/
+button.btn-go-play,
+.start-game__btn {
+    font-weight: bold;
+}
+.header-nav-left > ul > li > a {
+    color: #fff;
+    font-size: 18px;
+}
+.copyright__text,
+.privacy-policy__link {
+    font-family: 'open_sansregular';
+    font-size: 16px;
+}
+.description-slide__title {
+    font-family: 'open_sansregular'!important;
+}
+.title-page .title-date {
+    font-family: 'open_sansregular'!important;
+    text-shadow: none;
+}
+.post-item__date {
+    font-size: 16px!important;
+}
+.post-item__text {
+    font-size: 15px!important;
+    max-height: 82px;
+    text-shadow: none;
+}
+.title-page,
+.text-uppercase,
+.about-page .first-block-wrapper h2, .about-page .first-block-wrapper h3,
+.about-page__wrapper h4,
+.about-page__wrapper h3,
+.about-page__wrapper h2,
+.nowbie-page__wrapper h3 {
+    font-family: 'open_sansregular';
+    text-shadow: none;
+}
+.about-page__wrapper .first-block-wrapper h3 {
+    white-space: normal;
+}
+.title-page {
+    padding-right: 93px;
+}
+.faq-page__answer,
+.faq-page__question,
+.third-block-wrapper p,
+.third-block-wrapper,
+.second-block-wrapper p,
+.second-block-wrapper,
+.first-block-wrapper p,
+.first-block-wrapper,
+.about-text p,
+.about-text,
+.articles-inner p, .articles-inner, .nowbie-page__item-text, .nowbie-page__wrapper{
+    font-size: 18px;
+}
+.faq-page__answer-text,
+.faq-page__answer-text,
+.nowbie-page__wrapper td, .nowbie-page__wrapper th, .about-page__wrapper, .about-page__wrapper p, .first-block-wrapper p, .post-item__date, .faq-page__answer, .faq-page__answer-text, .faq-list a,.nowbie-page__wrapper td,
+.nowbie-page__wrapper th,
+.nowbie-page__item p,
+.nowbie-page__wrapper a,
+.form-play-go,
+.form-play-go p,
+.form-play-go a,
+.articles-inner p, .articles-inner, .nowbie-page__item-text, .nowbie-page__wrapper, .articles-inner a,
+.faq-page__question,
+.remember-checkbox input[type="checkbox"] + label,
+.first-block-wrapper h3,
+.second-block-wrapper h4,
+.third-block-wrapper h4,
+.nowbie-page__item-money3,
+.nowbie-page__item-money2,
+.nowbie-page__item-money1,
+
+.slider-wrapper-news h3,
+.about-text h2,
+.nowbie-page__item h4,
+.post-item__date,
+.post-item__title-link,
+.section-video-slider h3,
+.copyright__text,
+.privacy-policy__link,
+.first-block-wrapper h3,
+.nowbie-page__wrapper h3,
+.faq-page__question,
+.nowbie-page__wrapper td, .nowbie-page__wrapper th, .about-page__wrapper, .about-page__wrapper p, .first-block-wrapper p, .post-item__date, .faq-page__answer, .faq-page__answer-text, .faq-list a,.nowbie-page__wrapper td,
+.nowbie-page__wrapper th,
+.nowbie-page__item p,
+.nowbie-page__wrapper a,
+.form-play-go,
+.form-play-go p,
+.form-play-go a{
+    text-shadow: none;
+}

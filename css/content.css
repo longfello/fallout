@@ -1,0 +1,763 @@
+html { min-height: 100%; background: #000;}
+body {min-height: 100%; z-index: 0; position: relative; }
+a {
+    font-weight: bold;
+    color: #33cc00;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.alert {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 9999;
+    background: #000;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #8a6d3b;
+}
+
+/* Dialog Box */
+
+
+/* Bar */
+#bar {
+    background: url('../images/bar.jpg') no-repeat;
+    width: 526px;
+    height: 499px;
+}
+
+#barmen_question {
+    font-family: Verdana;
+    font-size: 9px;
+    width: 170px;
+    color:#33CC00;
+    height: 100px;
+    padding-top: 305px;
+    padding-left: 15px;
+}
+
+#choice ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#choice ul li {
+    line-height: 1.5;
+}
+
+/* ����� - city.php */
+#citymap {
+    position: absolute;
+    z-index: -1;
+    margin-top: -13px;
+    margin-left: -15px;
+}
+
+#town_transparent {
+    position: absolute;
+    z-index: 4;
+    margin-top: -13px;
+    margin-left: -15px;  
+}
+
+#hint1 {
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+}
+
+.citymap_divider {
+	position:relative;
+	z-index:3;
+	margin-left:-25px;
+	padding-top:533px;
+	background-image:url(../images/menu_bk_up.png);
+	background-repeat:no-repeat;
+	background-position:0 533px;
+	width:765px;
+	height:20px;
+}
+
+.menu_bk_center {
+	background-image:url(../images/menu_bk_center_repeat.png);
+	background-repeat:repeat-y; 
+	height:270px; 
+	width:765px; 
+	position:absolute; 
+	margin-left:-25px;
+}
+
+.menu_bk_black_1, .menu_bk_black_2, .menu_bk_black_3 {
+	background-image:url(../images/menu_bk_black_underbuttons.png); 
+	background-repeat:repeat-y; 
+	position:absolute; 
+	z-index:1; 
+}
+
+.menu_bk_black_1 {
+	width:170px; 
+	height:200px;
+	margin:15px 0 0 20px; 
+}
+
+.menu_bk_black_2 {
+	width:170px; 
+	height:240px;
+	margin:15px 0 0 270px; 
+}
+
+.menu_bk_black_3 {
+	width:170px; 
+	height:200px;
+	margin:15px 0 0 520px;
+}
+
+.menu_bk_wires {
+	background-image:url(../images/menu_bk_wires.png); 
+	background-repeat:no-repeat; 
+	width:33px; 
+	height:155px; 
+	position:absolute; 
+	z-index:1; 
+	margin-left:185px;
+}
+
+.menu_bk_down {
+    background-image:url(../images/menu_bk_down.png); 
+    background-repeat:no-repeat;
+	width:765px;
+	height:30px;
+	margin:270px 0 0 -25px;
+	position:absolute;
+	z-index:2;
+}
+
+/* ���������� � ������ - stats.php */
+.info_stats_players td {
+    padding: 0;
+}
+
+.hidden_gift {
+    display: none;
+}
+
+.tattoo_pics img {
+    /*margin:  0 0 15px 15px;*/
+}
+.tattoo_table td {
+    padding: 0!important;
+}
+
+/* ������ */
+#sms_tarrifts {
+    padding-top: 15px;    
+}
+
+#sms_tarrifts table {
+    border-collapse: collapse;
+    margin: 20px 0 0 0;
+}
+
+#sms_tarrifts table td {
+    border: 1px #0D3300 solid;
+}
+
+#sms_tarrifts table td img {
+    position: relative;
+    top: 3px;
+}
+
+#sms_tarrifts .filters_form {
+    margin-top: 10px;
+}
+
+#sms_tarrifts form.country {
+    float: left;
+    margin-right: 30px;
+}
+
+#sms_tarrifts form.country select {
+    width: 100px;
+}
+
+#sms_tarrifts form.operators select {
+    width: 200px
+}
+
+#sms_tarrifts .text_for_sms {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#sms_tarrifts .text_for_sms span {
+    font-size: 23px;
+    font-weight: bold;
+    color: #8a6d3b;
+}
+
+/* clans.php */
+.tax_table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+.tax_table td, th {
+    border: 1px solid #0D3300;
+    padding: 7px 10px;
+}
+.tax_table td select {
+    width: 50px;
+}
+
+/* admin.php */
+.donate_statistic li {
+    list-style-type: none;
+}
+.donate_statistic {
+    width: 714px;
+}
+.donate_statistic th {
+    width: 357px;
+}
+.donate_statistic td {
+    vertical-align: top;
+    cursor: pointer;
+}
+.donate_statistic .daily_donate_row, .donate_statistic .montly_donate_row {
+    display: block;
+    padding: 10px;
+}
+.donate_statistic tr td ul {
+    margin: 0!important;
+}
+
+/* treasury.php */
+.tax_log_statistic li {
+    list-style-type: none;
+}
+.tax_log_statistic th {
+    width: 357px;
+}
+.tax_log_statistic td {
+    vertical-align: top;
+    cursor: pointer;
+}
+.tax_log_statistic .daily_tax_log_row, .tax_log_statistic .montly_tax_log_row {
+    display: block;
+    padding: 10px;
+}
+.tax_log_statistic tr td ul {
+    margin: 0!important;
+}
+
+/* �������� �������� � ��������� �� ����������� ���� */
+.table_item_description td {
+    border: 0;
+    padding: 0;
+}
+
+/* ads.php */
+.ads_form {
+    margin: 20px auto;
+    width: 320px;
+    display: block;
+}
+.ads_form li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.ads_form li span {
+    width: 150px;
+}
+.ads_form input[type="submit"] {
+    display: block; 
+    margin: 0 auto;
+}
+
+.ref_statistic li {
+    list-style-type: none;
+}
+.ref_statistic {
+    width: 714px;
+}
+.ref_statistic th {
+    width: 357px;
+}
+.ref_statistic td {
+    vertical-align: top;
+}
+.ref_statistic .daily_ref_row, .ref_statistic .montly_ref_row {
+    display: block;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+}
+.ref_statistic tr td ul {
+    margin: 0!important;
+}
+
+.ref_exit {
+    margin: 10px 0;
+    display: block;
+}
+.ref_title {
+    text-align: center;
+}
+
+/* admin.php : ���������� �������� �� ����� */
+.ref_up_statistics li {
+    list-style-type: none;
+}
+.ref_up_statistics {
+    width: 200px;
+    margin: 0 auto;
+}
+.ref_up_statistics td {
+    vertical-align: top;
+    cursor: pointer;
+}
+.ref_up_statistics.level_statistics td {
+    cursor: auto;
+}
+.ref_up_statistics .ref_source_row {
+    display: block;
+    padding: 10px 30px;
+}
+.ref_up_statistics tr td ul {
+    margin: 0!important;
+}
+
+/* ������ "������" */
+.b-top {z-index:2600;position:fixed;left:0;bottom:90px;width:34%;margin-left:50%;opacity: 0.5;filter:alpha(opacity=50);}
+.b-top:hover {opacity:1;filter:alpha(opacity=100);cursor:pointer;}
+.b-top-but {
+    width: 41px;
+    height: 41px;
+    z-index:2600;
+    position:absolute;
+    display:block;
+    bottom:0;
+    margin:0 0 0 490px;
+    padding:32px 12px 4px;
+    color:white;
+    background: url(../images/top_btn.png) no-repeat 50% 11px;
+}
+
+
+/* �������� � ����� */
+.war_list a {
+    text-decoration: none;
+}
+
+.war_union_list ul {
+    margin: 0 0 10px 25px;
+    padding: 0;
+}
+.war_union_list li {
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+/* Battle */
+.battle_win_text {
+    color: #fff;
+}
+
+/* ����������� */
+#logging {
+    display: none;
+}
+#antibot {
+    width: 100%;
+    border-collapse: collapse;
+}
+#antibot td {
+    border: 1px solid #0D3300;
+    padding: 7px 10px;
+}
+.options {
+    list-style-type: none;
+    margin-left: 0!important;
+}
+.options li {
+    display: inline;
+}
+
+/* pets.php */
+.implant_list button {
+    background-color: transparent;
+    color: #29B200;
+    border: 1px solid #29B200;
+}
+.implant_buy_info {
+    display: inline!important;
+    color: yellow;
+    font-size: 12px;
+}
+
+/* itemp.php */
+.itemp_content h2 {
+    width: 100%;
+    clear: both;
+}
+.itemp_content a {
+    text-decoration: none;
+    font-weight: normal;
+}
+.itemp_content .level_title {
+    color: #29B200;
+    padding: 10px 0;
+}
+.itemp_content ul {
+    list-style-type: none;
+}
+.itemp_content li {
+    background: url("../images/slot.png") no-repeat;
+    float: left;
+    width: 214px;
+    height: 125px;
+    text-align: center;
+    margin: 3px 3px 0 0;
+    text-align: center;
+}
+.itemp_content li .item_inside {
+    height: 75px;
+}
+.itemp_content li table {
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+.itemp_content li .item_view_text {
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    display: block;
+    height: 85px;
+    line-height: 85px;
+}
+.itemp_content li .item_info {
+    margin: 24px 0 0 0;
+}
+
+/* ����� ���������� ��������� �� �������� stat.php � view.php */
+.unique_items_view {
+    float: left;
+    text-align: left;
+    margin: 20px 0 0 0;
+}
+.unique_items_view p {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+.unique_items_view ul {
+    list-style-type: none;
+    margin: 20px 0 0 0!important;
+}
+.unique_items_view li {
+    float: left;
+    width: 100px;
+    height: 75px;
+    margin: 0 10px 10px 0;
+}
+.unique_items_view li .unique_item_image {
+    width: 100px;
+    height: 75px;
+}
+.unique_items_view .unique_item_hidden {
+    display: none;
+}
+#show_all_unique_items {
+    display: block;
+    float: left;
+}
+
+
+/* gbattle.php */
+.gbattle_block {
+    display: block;
+    padding: 2px;
+    border: 1px solid #0D3300;
+    cursor: pointer;
+    position: relative;
+    margin: 0 0 30px 0;
+}
+.gbattle_block .title {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 10px;
+}
+.gbattle_block .arrow {
+    right: 5px;
+    bottom: 6px;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+}
+.gbattle_block .inside {
+    display: none;
+}
+
+/* ��������� */
+.page_line {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    right: 10px;
+}
+.page_line li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.page_line li:last-child {
+    margin: 0;
+}
+.page_line li a.current_page {
+    text-decoration: none;
+}
+
+/* �������� */
+.caves li {
+    line-height: 30px;
+}
+
+.labyrinth .mob_bg {
+    border: 1px solid #0D3300;
+    width: 700px;
+    height: 300px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+.labyrinth .mob {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.labyrinth .mob_info {
+    padding: 15px 30px 0 20px;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.labyrinth .control {
+    padding: 30px 30px 0 20px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.labyrinth .user_actions {
+
+}
+.labyrinth .time_left {
+    text-align: center;
+}
+.labyrinth .user_extra_actions {
+    padding: 0 30px 0 20px;
+    line-height: 30px;
+}
+.labyrinth .user_actions li {
+    line-height: 30px;
+}
+.labyrinth .mob_cnt {
+    color: #fff;
+}
+
+.labyrinth .radar img {
+    width: 28px;
+    height: 28px;
+}
+.labyrinth .radar .navigator img {
+    width: 71px;
+    height: 72px;
+}
+.labyrinth .radar {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 196px;
+}
+.labyrinth .radar .navigator a {
+    cursor: default;
+    display: inline-block;
+    border: none;
+    width: 28px;
+    height:28px;
+    position: absolute;
+}
+.labyrinth .radar .navigator a.active {
+    cursor: pointer;
+}
+.labyrinth .radar .navigator a.direction-top {
+  top: -6px;
+  left: 21px;
+}
+.labyrinth .radar .navigator a.direction-left {
+  top: 22px;
+  left: -6px;
+}
+.labyrinth .radar .navigator a.direction-right {
+  top: 22px;
+  left: 50px;
+}
+.labyrinth .radar .navigator a.direction-bottom {
+  top: 50px;
+  left: 21px;
+}
+.labyrinth .radar .navigator a.direction-battle {
+  top: 22px;
+  left: 22px;
+}
+.labyrinth .radar .navigator {
+    position: absolute;
+    width: 71px;
+    height: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: -36px;
+}
+
+.labyrinth .battle_log {
+    padding: 10px 0 0 0;
+}
+
+/* New: FOOD*/
+.tabInfo {
+    padding-top: 20px;
+}
+.tabInfo input[type=submit] {
+    height: 23px;
+    cursor: pointer;
+}
+.tabInfo td {
+    padding-bottom: 40px;
+}
+.tabInfo .deny {
+    color: red;
+    border: 1px solid red;
+}
+
+
+/* tatoo.php */
+.tatoo_img {
+    height: 113px;
+    display: block;
+}
+
+.tab .checkbox-wrapper { display:none; }
+.tab-donate .checkbox-wrapper { display:block;width: 30px;padding-left: 15px;}
+.checkbox-wrapper input[type="checkbox"] { display:none; }
+.checkbox-wrapper input[type="checkbox"] + label{ cursor: pointer; display:block; }
+.checkbox-wrapper input[type="checkbox"] + label::before { content: ""; display: block; height: 15px; width: 15px; background-image: url(/images/checbox.png); background-repeat: no-repeat;}
+.checkbox-wrapper input[type="checkbox"] + label::before { background-position: 1px 1px;}
+.checkbox-wrapper input[type="checkbox"]:checked + label::before {background-position: -14px 1px;}
+.checkbox-wrapper input[type="checkbox"]:disabled + label::before {background-position: -152px -260px;}
+.checkbox-wrapper input[type="checkbox"]:checked:disabled + label::before {background-position: -171px -260px;}
+tr.link td {padding:0;}
+
+/* unique_tatoo.php table-stat-style */
+
+#table-prices-tatoo {
+    border-collapse: collapse;
+}
+#table-prices-tatoo tr:first-child td{
+    vertical-align: bottom;
+    text-align: center;
+}
+#table-prices-tatoo tr:nth-child(2n){
+    background: rgba(255,255,255, 0.2);
+}
+#table-prices-tatoo  td{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    padding: 2px 0;
+}
+#table-prices-tatoo  td:first-child{
+    min-width: 100px;
+}
+#table-prices-tatoo .table-tatoo-discont {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+    color: rgb(204, 51, 0);
+    background: none;
+}
+ #table-prices-tatoo .table-tatoo-discont-wrapper {
+     background: none !important;
+ }
+#table-prices-tatoo  td > span{
+    display: inline-block;
+    background: url('../images/platinum.png');
+    width: 13px;
+    height: 15px;
+    position: absolute;
+    z-index: 10;
+    right: 2px;
+}
+
+#table-prices-tatoo .table-tatoo-second-column > span{
+    right: 20px;
+}
+#resources a { text-decoration: none; font-weight: normal; }
+#resources a:hover {text-decoration: underline; }
+
+.cmd-btn_user_invite_delete.ui-button-text-only {
+    width: 100%;
+}
+
+.cmd-btn_user_invite_remind {
+    margin-right: 0 !important;
+}
+
+.cmd-btn_user_invite.ui-button-text-only {
+    width: 58%;
+    min-width: 100px;
+}
+
+
+.cmd-btn_user_invite_remind.ui-button-text-only{
+    width: 40%;
+    min-width: 100px;
+}
+
+.cmd-btn_user_invite_delete.ui-button-text-only .ui-button-text{
+    text-align: right;
+}
+
+.cmd-btn_user_invite_delete {
+    border: none !important;
+    background: transparent !important;
+    color: #33cc00;
+}
+
+.share-wrap #copy_link,
+.invite-submit {
+    border: 1px solid #33cc00;
+    background: #000000 url(/css/jui/images/ui-bg_white-lines_10_0f0d06_40x100.png) 50% 50% repeat;
+    font-weight: bold;
+    color: #8a6d3b;
+    margin-left: 0.01em;
+}
+
+.share-wrap #copy_link:hover,
+.invite-submit:hover {
+    color: #33cc00;
+    text-decoration: none;
+}
+
+#check_all_invites,
+#uncheck_all_invites {
+    margin-left: 1em;
+}

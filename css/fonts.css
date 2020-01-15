@@ -1,0 +1,179 @@
+/*@font-face {*/
+    /*font-family: IntroHeadR-Base;*/
+    /*src: url(/fonts/IntroHeadR-Base.otf);*/
+    /*src: url('/fonts/main/introheadr-base-webfont.woff2') format('woff2'),*/
+    /*url('/fonts/main/introheadr-base-webfont.woff') format('woff');*/
+    /*font-weight: normal;*/
+    /*font-style: normal;*/
+/*}*/
+@font-face {
+    font-family: IntroHeadB-H1;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Head/IntroHeadB-H1.otf);
+    src: url('/fonts/main/introheadb-h1-webfont.woff2') format('woff2'),
+    url('/fonts/main/introheadb-h1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: IntroHeadB-L;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Head/IntroHeadB-L.otf);
+    src: url('/fonts/main/introheadb-l-webfont.woff2') format('woff2'),
+    url('/fonts/main/introheadb-l-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: IntroHeadB-LBase;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Head/IntroHeadB-LBase.otf);
+    src: url('/fonts/main/introheadb-lbase-webfont.woff2') format('woff2'),
+    url('/fonts/main/introheadb-lbase-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: IntroHeadB-GBase;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Head/IntroHeadB-GBase.otf);
+    src: url('/fonts/main/introheadb-gbase-webfont.woff2') format('woff2'),
+    url('/fonts/main/introheadb-gbase-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: IntroHeadR-Base;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Head/IntroHeadR-Base.otf);
+    src: url('/fonts/main/introheadr-base-webfont.woff2') format('woff2'),
+    url('/fonts/main/introheadr-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: IntroRast-Base;
+    src: url(/fonts/IntroRust/Intro%20Rust/Intro%20Rust/IntroRust-Base.otf);
+    src: url('/fonts/main/introrust-base-webfont.woff2') format('woff2'),
+    url('/fonts/main/introrust-base-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'intro_head_bl_base';
+
+
+}
+
+@font-face {
+    font-family: 'intro_head_rbase';
+
+
+}
+
+@font-face {
+    font-family: 'intro_rustbase';
+
+
+}
+
+@font-face {
+    font-family: 'intro_head_bg_base';
+
+
+}
+
+@font-face {
+    font-family: 'intro_head_bh1';
+
+
+}
+
+@font-face {
+    font-family: 'intro_head_bl';
+
+
+}
+
+@font-face {
+    font-family: TerminusTTF-Bold;
+    src: url(/fonts/terminus/terminusttfbold439.ttf);
+}
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('/fonts/Consolas.eot?#iefix') format('embedded-opentype'),  url('/fonts/Consolas.woff') format('woff'), url('/fonts/Consolas.ttf')  format('truetype'), url('/fonts/Consolas.svg#Consolas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Consolas-Bold';
+    src: url('/fonts/Consolas-Bold.eot?#iefix') format('embedded-opentype'),  url('/fonts/Consolas-Bold.woff') format('woff'), url('/fonts/Consolas-Bold.ttf')  format('truetype'), url('/fonts/Consolas-Bold.svg#Consolas-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ukij_moy_qelemregular';
+    src: url(/fonts/ukijmoyq-webfont.eot);
+    src: url(/fonts/ukijmoyq-webfont.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/ukijmoyq-webfont.woff2) format('woff2'),
+    url(/fonts/ukijmoyq-webfont.woff) format('woff'),
+    url(/fonts/ukijmoyq-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amitabold';
+    src: url('/fonts/amita-bold-webfont.eot');
+    src: url('/fonts/amita-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/amita-bold-webfont.woff2') format('woff2'),
+    url('/fonts/amita-bold-webfont.woff') format('woff'),
+    url('/fonts/amita-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'amitaregular';
+    src: url('/fonts/amita-regular-webfont.eot');
+    src: url('/fonts/amita-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/amita-regular-webfont.woff2') format('woff2'),
+    url('/fonts/amita-regular-webfont.woff') format('woff'),
+    url('/fonts/amita-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'IntroHeadB-H1';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IntroHeadB-LBase';
+    src: url('/fonts/opensans-regular-webfont.eot');
+    src: url('/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('/fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

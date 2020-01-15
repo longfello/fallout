@@ -1,0 +1,3 @@
+<?= $playerLog ?>
+    <br />
+<?= $enemyLog ?>

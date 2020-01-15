@@ -1,0 +1,158 @@
+/* Страница статьи */
+.material a {
+    color: #29b200;
+    text-decoration: underline;
+}
+.material h1, h2 {
+    color: #968400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.material h3 {
+    color: #968400;
+    margin-bottom: 16px;
+}
+.material .banner {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.material .newsImage {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.material .date {
+    float: right;
+    color: #968400;
+    font-size: 13px;
+}
+
+
+/* Превью статей */
+.list {
+    margin-left: 0!important;
+    list-style-type: none;
+}
+.list li {
+    display: inline-block;
+    width: 220px;
+    height: 330px;
+    border: 2px solid #006600;
+    border-radius: 5px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    padding: 6px 4px;
+    position: relative;
+}
+.list a {
+    color: black;
+}
+.list img {
+    width: 215px;
+    display: block;
+    margin: 0 auto;
+}
+.list h3 {
+    padding: 0 5px;
+    color: #8a6d3b;
+    margin-bottom: 5px;
+}
+.list p {
+    padding: 0 5px;
+}
+.list .date {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #8a6d3b;
+    position: absolute;
+    left: 5px;
+    bottom: 6px;
+}
+.list .next {
+    position: absolute;
+    right: -3px;
+    bottom: 6px;
+    background: #33CC00;
+    color: black;
+    padding: 2px 3px 2px 7px;
+    font-weight: bold;
+}
+.list .next a {
+    text-decoration: none;
+}
+
+.about {
+    display: block;
+    background: url("/images/news/bg.png") no-repeat;
+    width: 702px;
+    height: 1020px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.about h3 {
+    color: #8a6d3b;
+    font-size: 20px;
+    text-align: center;
+}
+.about .one {
+    display: block;
+    width: 300px;
+    height: 161px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    text-align: center;
+}
+.about .two {
+    display: block;
+    width: 320px;
+    height: 161px;
+    position: absolute;
+    top: 255px;
+    left: 340px;
+    text-align: center;
+}
+.about .three {
+    display: block;
+    width: 300px;
+    height: 161px;
+    position: absolute;
+    top: 450px;
+    left: 25px;
+    text-align: center;
+}
+.about .four {
+    display: block;
+    width: 320px;
+    height: 161px;
+    position: absolute;
+    top: 710px;
+    left: 350px;
+    text-align: center;
+}
+.about .reg {
+    background: url("/images/news/registration_sprite.png") no-repeat;
+    width: 532px;
+    height: 171px;
+    display: block;
+    position: absolute;
+    bottom: -65px;
+    left: 85px;
+    cursor: pointer;
+}
+.about .reg:hover {
+    background: url("/images/news/registration_sprite.png") 0 -171px no-repeat;
+    width: 532px;
+    height: 171px;
+}
+.sus3 { 
+ text-align: center;
+ margin-bottom: 16px;
+ font-size: 20px;
+ color: #968400;
+  font-weight: bold
+  }
+ .sus1{font-size: 14px;
+      display: inline;
+  }

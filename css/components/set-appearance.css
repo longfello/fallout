@@ -1,0 +1,35 @@
+.appearance_block {
+    float: left;
+    margin-right: 20px;
+}
+
+.chat_avatar_block {
+    position: relative;
+    top: 40px;
+}
+.chat_avatar_block .choose_box {
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+.chat_avatar_block .save_btn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+.chat_avatar_block .avatar_number {
+    width: 20px;
+    display: inline-block;
+}
+.chat_avatar_block .arrow {
+    cursor: pointer;
+}
+.player-tatoo-wrapper {
+    padding: 10px 0;
+}
+.player-tatoo {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 129px;
+    margin-bottom: 10px;
+}
+

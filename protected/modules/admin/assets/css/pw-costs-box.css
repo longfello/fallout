@@ -1,0 +1,5 @@
+.equipmentItemsList { list-style: none; margin: 0 20px; padding: 0; }
+.equipmentItemsList li { padding: 5px; margin: 0; }
+.equipmentItemsList li a.remove { display: none; color: red;}
+.equipmentItemsList li:hover { background: #D2E4E8; }
+.equipmentItemsList li:hover a.remove { display: inline-block; float: right; }

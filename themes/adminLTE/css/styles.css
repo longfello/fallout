@@ -1,0 +1,140 @@
+/* html, body
+{
+	height:100%;
+}
+
+#page {
+    position:relative;
+	min-height: 100%;
+}
+
+* html #page {height: 100%;}
+
+#content{
+	padding-bottom: 50px;
+}
+
+#footer
+{
+	font-size: 0.8em;
+	text-align: left;
+	line-height:15px;
+	position:absolute;
+	bottom:0;
+}
+
+.grid-view, .list-view{
+	padding-top:0;
+} */
+
+.grid-view .button-column{
+	width: 70px !important;
+}
+
+.search-form{
+	margin-top: 10px;
+}
+
+.btn-first a{
+	margin-left: 0 !important;
+}
+
+.sidebar .nav-pills li { width: 100%;}
+.sidebar .dropdown-menu { position: static; float:none; border: none; border-radius: 0;}
+.sidebar .dropdown-menu > li > a { white-space: normal;}
+
+.autocomplete-wrapper ul{
+    text-align: left;
+    padding: 1px;
+    font-size: 0;
+    white-space: normal;
+}
+.autocomplete-wrapper li{
+    display: inline-block;
+    background: #dddddd;
+    border-radius: 4px;
+    padding: 2px 16px 2px 6px;
+    position: relative;
+    border: 1px solid #cccccc;
+    margin: 0 4px 4px 0;
+    font-size: 14px;
+}
+.autocomplete-wrapper li .btn-remove{
+    display: none;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    padding: 0 3px 1px 3px;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 10px;
+    color: #ffffff;
+    background: #d9534f;
+    border-radius: 100%;
+}
+.autocomplete-wrapper li:hover .btn-remove{
+    display: block;
+}
+#avatars_block img{
+    margin: 5px;
+    opacity: .5;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray; /* IE 6-9 */
+}
+#avatars_block img.active{
+    opacity: 1;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+}
+.mob-name input{
+    max-width: 100%;
+    margin-top: 18px;
+}
+.mob-chance{
+    margin-top: 20px;
+}
+.mob-calc p {
+    width: 85%;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0;
+
+
+}
+.mob-calc p.bor-bot{
+    padding: 0 0 5px;
+    border-bottom: 1px solid #000;
+
+}
+.mob-calc p input{
+    /*width: 47.7%;*/
+}
+.mob-num{
+    margin-top: 20px;
+}
+.mob-pers{
+    float: right;
+    font-size: 40px;
+}
+.mob-result input{
+    /*width: 47.7%;*/
+    margin-top: 18px;
+}
+.npc-add-drop hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}

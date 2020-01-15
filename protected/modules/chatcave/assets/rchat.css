@@ -1,0 +1,139 @@
+.pointer {
+    cursor: pointer;
+}
+
+
+.rchat {
+    text-align: center;
+}
+.rchat .chatUsers li {
+    display: inline-block;
+    list-style-type: none;
+}
+.rchat .clanIcon {
+    position: relative;
+    bottom: 1px;
+}
+.rchat .user {
+    display: inline-block;
+    margin-right: 10px;
+}
+.rchat .colorAdmin {
+    color: darkred;
+}
+.rchat .colorPlayer {
+    color: #4169E1;
+}
+.rchat .colorCurrent {
+    color: orange;
+}
+
+.rchat .nick:hover {
+    cursor: pointer;
+}
+.rchat .nickHover {
+    color: yellow;
+}
+
+/* Аватар игрока */
+.chatAvatar {
+    border-radius: 0;
+    border-width: 0!important;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+}
+
+
+
+
+.rchat .sendingBlock {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+.rchat .messageField {
+    width: 530px;
+    margin-right: 42px;
+}
+.rchat input[type="submit"] {
+    cursor: pointer;
+}
+#privateBlock {
+    display: none;
+}
+.rchat .private {
+    position: relative;
+    top: 6px;
+}
+.rchat .privateInfo {
+    background: #3B2F04;;
+}
+.rchat .ignore {
+    position: relative;
+    top: 6px;
+}
+
+.rchat .forMe {
+    color: white;
+}
+
+.rchat .deleteMsg {
+    font-size: 16px;
+    color: #b40000;
+    cursor: pointer;
+}
+
+.rchat .ignoreBit .time {
+    color: gray;
+}
+.rchat .ignoreBit .msg {
+    font-size: 11px;
+    color: gray;
+}
+.ignoreLine input {
+    position: relative;
+    top: 6px;
+}
+
+.rchat .banBlock {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.rchat .banUser {
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+
+#chatLineHolder {
+    text-align: left;
+    margin-top: 30px;
+}
+#chatLineHolder .time {
+    color: #808080;
+}
+
+#showSmileBtn {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 1px;
+    cursor: pointer;
+    border: 0;
+    cursor: pointer;
+}
+
+#hiddenSmiles {
+    display: none;
+}
+
+.smiles img {
+    cursor: pointer;
+}
+
+
+#volnorez_live_player {
+    margin: 0 auto;
+}

@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Вывод таблицы предметов */
+.items_list {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+/* Стили фона для картинки предмета */
+.grey, .green, .yellow, .orange, .red {
+	position:relative;
+	display: inline-block;
+	background-repeat: repeat;
+	min-width:100px;
+	text-align:center;
+    background-color: black;
+    width: 148px;
+    height: 75px;
+}
+
+.grey {
+	border:solid 1px #191919;
+    background-image: url(../images/inventory/backgrounds/grey.png);
+}
+
+.grey a {
+    text-decoration: none;
+}
+
+.green {
+	border:solid 1px #000000;
+    background-image: url(../images/inventory/backgrounds/green.png);
+}
+
+.yellow {
+	border:solid 1px #263300;
+    background-image: url(../images/inventory/backgrounds/yellow.png);
+}
+
+.orange {
+	border:solid 1px #332b00;
+    background-image: url(../images/inventory/backgrounds/orange.png);
+}
+
+.red {
+	border:solid 1px #321500;
+    background-image: url(../images/inventory/backgrounds/red.png);
+}
+
+/* Отображение картинки предмета */
+.item {
+	z-index:1;
+	position:relative;
+}
+
+.item_expanded_list {
+	z-index:1;
+	position:relative;
+	opacity:0.25;
+}
+
+.item_inner_text {
+	position:absolute;
+	z-index:3;
+	top:13px;
+	left:0%;
+	margin:7px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:left;
+}
+
+.item_inner_text a{
+	text-decoration:none;
+}
+
+/* Иконки разворачивания и сворачивания списка */
+.collapsed, .expanded {
+	width:12px;
+	height:12px;
+	z-index:3;
+	position:absolute;
+	bottom:0%;
+	left:0%;
+	margin-left:5px;
+	margin-bottom:5px;	
+}
+/* Иконка "+" */ 
+.collapsed {
+	background:url(../images/inventory/collapsed_items_list.png) no-repeat;	
+}
+
+/* Иконка "-" */
+.expanded {
+	background:url(../images/inventory/expanded_items_list.png) no-repeat;
+}
+
+/* Иконка использования предмета */
+.use_item {
+	width:11px;
+	height:15px;
+	background:url(../images/inventory/use_item.png) no-repeat;
+	z-index:3;
+	position:absolute;
+	top:0%;
+	left:0%;
+	margin-left:5px;
+	margin-top:5px;		
+}
+
+/* Иконка "выбросить предмет" */
+.throw_out_item {
+	width:11px;
+	height:14px;
+	background:url(../images/inventory/throw_out_item.png) no-repeat;
+	z-index:3;
+	position:absolute;
+	right:0%;
+	top:0%;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+/* Снять предмет */
+.take_off {
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 3;
+}
+
+/* Счетчик количества предметов */
+.items_count {
+	z-index:3;
+	font-weight:bold;
+	position:absolute;
+	right:0%;
+	bottom:0%;
+	margin-right:5px;
+	margin-bottom:3px;
+	text-shadow: black 0 0 5px;
+}
+
+/* Перечеркивание испорченного предмета */
+.defected {
+     width:75px;
+     height:75px;
+     position: absolute;
+     z-index:2;
+     background:url(../images/inventory/defected.png) no-repeat;
+     opacity:0.5;
+     top:50%;
+     left:50%;
+     margin-left:-37px;
+     margin-top:-37px;
+}
+
+
+/* Разметка таблицы для вида "дерево" */
+.indention {
+	width:11px;
+	height:15px;
+	border-right:solid 1px #191919;	
+}
+
+.mapping {
+	border-left:solid 1px #191919; 
+	height:77px;
+	width:15px;
+	margin-left:11px;
+	position:relative;
+	float:left;
+	background-image: url(../images/inventory/mapping.png);
+    background-repeat: repeat-x;
+	background-position:12px 50%;
+}
+
+.mapping_last_item {
+	border-left:solid 1px #191919;
+	border-bottom:solid 1px #191919; 
+	height:37px;
+	width:15px;
+	margin-left:11px;
+	position:relative;
+	float:left;
+}
+
+/* Группировка предметов */
+.group {
+    position: absolute;
+    z-index: 1000;
+    font-size: 13px;
+}
+
+/* Блоки текущих вещей в инвентаре */
+.area {
+    display: inline-block;
+    width: 683px;
+    border: 1px solid #0D3300;
+    padding: 2%;
+    margin-bottom: 10px;
+}
+
+.inventory_title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.line_sorter {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.line_sorter ul li {
+    display: inline;
+}
+
+.line_separator {
+    clear: both;
+}
+

@@ -1,0 +1,266 @@
+.combat-main { background: #000;}
+.combat-main h3 { font-size: 16px;}
+.combat-main * {
+    color: #29b200;
+    font-family: Consolas;
+}
+.combat-main a {
+    color: #33cc00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.description .table {
+    display: inline-block;
+}
+
+.attackForm button {
+    cursor: pointer;
+}
+
+.combat-main {
+    border: solid 1px #000000;
+    width: 691px;
+    margin: 4px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.combat-main .lines-bg {
+    background: rgba(0, 0, 0, 0) url("/images/line-bg.png") repeat scroll 0 0;
+    border: 1px solid #000000;
+    height: 22px;
+    margin: 3px auto 9px;
+    padding-top: 5px;
+    text-align: center;
+    width: 212px;
+}
+.combat-main .lines-nobg {
+    background: none;
+    border: none;
+}
+.combat-main .combat-fighters > a {
+    float: right;
+    margin: -28px 10px;
+}
+.fighter {
+  display: inline-block;
+  width: 270px;
+}
+
+.fight-with {
+    display: inline-block;
+    width: 100px;
+}
+.avatar-fighter {
+  width: 148px;
+  display: inline-block;
+}
+.defend {
+  width:100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.fighters {
+  overflow: hidden;
+}
+.fighter.right-fighter {
+  float:right;
+  margin-right: -23px;
+}
+.fighter.right-fighter img {
+ 
+}
+.defend {
+  text-align: center;
+}
+.defend input {
+    display: block;
+    margin: 15px auto 0;
+    text-align: center;
+}
+.fight-with {
+    margin: 90px 0 0 23px;
+    text-align: center;
+    vertical-align: top;
+}
+.fight-with .hero-name {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.defend > h3 {
+    color: #33cc00;
+}
+.live-line {
+    background: #a4a4a4 none repeat scroll 0 0;
+    border: 1px solid #000;
+    height: 6px;
+    left: 6px;
+    position: relative;
+    top: 6px;
+    width: 89px;
+    box-shadow: 4px -1px 1px 1px rgba(0, 0, 0, 0.75) inset;
+}
+.red-line {
+    height:6px;
+    width:40%;
+    position: absolute;
+    top: -1px;
+    background: #770500;
+    border-top: solid 1px #0d0c01;
+    border-bottom: solid 1px #0d0c01;
+    box-shadow: 0 -1px 1px 1px rgba(0, 0, 0, 0.75) inset;
+    max-width: 100%;
+}
+.live-line-wraper {
+    background: rgba(0, 0, 0, 0) url("/images/live-line.png") no-repeat scroll 0 0;
+    height: 21px;
+    margin: 11px 0 0 19px;
+    width: 105px;
+    margin-left: 40px;
+}
+.fighters + .lines-bg {
+    width: 170px;
+  
+}
+.winner {
+  height: 37px;
+  border: solid 1px #33cc00;
+  background: url(/images/winner-bg.png);
+  text-align: center;
+  
+}
+.winner span {
+    line-height: 35px;
+    text-align: center;
+    overflow: hidden;
+}
+.winner .info {
+    background: rgba(0, 0, 0, 0) url("/images/info-icon.png") repeat scroll 0 0;
+    display: block;
+    height: 12px;
+    margin: 12px;
+    width: 12px;
+    float: left;
+}
+.combat-main > p {
+    text-align: center;
+    margin-top: 10px;
+  
+}
+.combat-main > p span {
+    color: #fff;
+  
+}
+.round {
+    border-top: solid 1px #000000;
+    padding: 24px 0 0 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.round h3 {
+    text-align: left;
+    color: #33cc00;
+    font-weight: normal;
+  
+}
+
+#combat .lines-bg button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    height: 27px;
+    margin: -5px 0;
+    padding: 0;
+    vertical-align: top;
+    width: 170px;
+}
+#combat .lines-bg button:hover,
+#combat .combat-fighters > button.lines-bg:hover {
+    text-decoration: underline;
+  
+}
+#combat .combat-fighters > button.lines-bg {
+    border: 1px solid #000000;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    height: 27px;
+    margin: -38px 0;
+    padding: 0 0 2px;
+    width: 125px;
+}
+
+.total-log {
+    margin-top: 15px;
+}
+
+#combat .lines-bg button[disabled="disabled"],
+#combat .combat-fighters > button[disabled="disabled"].lines-bg {
+    background: rgba(255, 255, 255, 0.3);
+    border: medium none;
+    color: #73ef7c;
+    cursor: auto;
+    width: 170px;
+}
+
+#combat .lines-bg button[disabled="disabled"]:hover,
+#combat .combat-fighters > button[disabled="disabled"].lines-bg:hover{
+    text-decoration: none;
+  
+}
+
+.fighter input[type="radio"] {
+    display:none;            
+}
+.fighter input[type="radio"] + label{
+  cursor: pointer;
+    display: block;
+}
+.fighter input[type="radio"] + label::before {
+    content: "";
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px 0 0;
+    background-image: url(/images/checbox.png);
+    background-repeat: no-repeat;
+}
+.fighter input[type="radio"] + label::before {
+    background-position: 1px 1px;
+    margin-bottom: 3px;
+    margin-left: 42px;
+    margin-top: 12px;
+}
+
+.fighter input[type="radio"]:checked + label::before {
+    background-position: -14px 1px;
+}
+
+.fighter input[type="radio"]:disabled + label::before {
+    background-position: -152px -260px;
+}
+.fighter input[type="radio"]:checked:disabled + label::before {
+    background-position: -171px -260px;
+}
+
+.hidden {
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

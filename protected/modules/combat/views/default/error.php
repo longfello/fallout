@@ -1,0 +1,1 @@
+<?= Window::error($error) ?>
